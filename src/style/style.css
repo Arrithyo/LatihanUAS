@@ -223,10 +223,24 @@ body {
     color: white;
 }
 
+.operational h2{
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    margin: 14px;
+}
+
 .border {
     margin-left: 14px;
-    border: solid 2px darkgoldenrod;
+    border: solid 1px darkgoldenrod;
     width: 80px;
+}
+
+.line {
+    border-bottom: solid 1px white;
+    margin-top: 40px;
+    margin-left: 14px;
+    margin-right: 14px;
 }
 
 #about h1 {
