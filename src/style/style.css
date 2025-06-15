@@ -1,0 +1,239 @@
+* {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #2e2b2b;
+}
+
+.nav {
+    background-color: rgba( 51, 29, 29, 0.5);
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+}
+
+.nav img {
+    margin: 16px;
+    margin-left: 60px;
+    max-width: 100px;
+}
+
+.nav .menu {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.nav .menu a{
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+}
+
+.menu a:hover {
+    font-weight: 500;
+    color: darkgoldenrod;
+    transition: 0.5s ease-in-out;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -ms-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 483px;
+}
+
+.prof {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.prof h1{
+    color: white;
+    font-size: 50px;
+}
+
+.prof h2 {
+    margin-top: 16px;
+    color: darkgoldenrod;
+    font-weight: 200;
+    font-size: 18px;
+}
+
+.profile img{
+    max-width: 600px;
+    margin-bottom: -80px;
+}
+
+.button {
+    display: flex;
+}
+
+.reservBtn, .waBtn {
+    background-color: black;
+    color: white;
+    padding: 8px;
+    border: solid 2px white;
+    margin: 18px;
+}
+
+.reservBtn:hover {
+    cursor: pointer;
+    border: solid 2px darkgoldenrod;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.reservBtn a {
+    color: white;
+    text-decoration: none;
+}
+
+.waBtn:hover {
+    cursor: pointer;
+    border: solid 2px darkgoldenrod;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.waBtn a {
+    color: white;
+    text-decoration: none;
+}
+
+#about {
+    height: 583px;
+    background-color: #100f0f;
+}
+
+.aboutCard {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.location, .contact, .operational {
+    margin-top: 40px;
+    height: 500px;
+    width: 300px;
+    background-color: rgb(25, 24, 24);
+    border: solid 2px black;
+}
+
+.location:hover, .contact:hover, .operational:hover {
+    border: solid 2px darkgoldenrod;
+    -webkit-box-shadow:0px 0px 18px 5px rgba(184,135,11,0.38);
+    -moz-box-shadow: 0px 0px 18px 5px rgba(184,135,11,0.38);
+    box-shadow: 0px 0px 18px 5px rgba(184,135,11,0.38);
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+}
+
+.location i, .contact i, .operational i {
+    color: darkgoldenrod;
+    margin: 14px;
+    font-size: 40px;
+}
+
+.location h1, .contact h1, .operational h1 {
+    margin: 14px;
+    height: 78px;
+}
+
+.alamat h2{
+    color: white;
+    font-weight: 200;
+    font-size: 18px;
+    margin: 14px;
+    padding: 14px;
+    text-align: center;
+}
+
+.alamat h2:hover {
+    cursor: pointer;
+    color: #d7d774;
+}
+
+.contact-detail i{
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.contact-detail h2{
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.contact-detail h2:hover {
+    cursor: pointer;
+    color: #d7d774;
+}
+
+.contact-detail .phone, .contact-detail .email {
+    display: flex;
+    align-items: center;
+}
+
+.btnContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.reserv-btn {
+    background-color: darkgoldenrod;
+    border: solid 2px rgb(25, 24, 24);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    max-width: 200px;
+    padding: 12px;
+}
+
+.reserv-btn:hover {
+    cursor: pointer;
+    background-color: rgb(25, 24, 24);
+    border: solid 2px darkgoldenrod;
+}
+
+.reserv-btn a {
+    font-size: 14px;
+    color: white;
+}
+
+.border {
+    margin-left: 14px;
+    border: solid 2px darkgoldenrod;
+    width: 80px;
+}
+
+#about h1 {
+    color: white;
+}
+
+
+#menu {
+    height: 583px;
+}
