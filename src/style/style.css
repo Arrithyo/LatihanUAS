@@ -15,12 +15,16 @@ body {
     top: 0;
     overflow: hidden;
     z-index: 100;
+    animation: 1.5s navOpacity ease-in-out;
+    -webkit-animation: 1.5s navOpacity ease-in-out;
 }
 
 .nav img {
     margin: 16px;
     margin-left: 60px;
     max-width: 100px;
+    animation: 1.5s slideInDown ease-in-out;
+    -webkit-animation: 1.5s slideInDown ease-in-out;
 }
 
 .nav .menu {
@@ -28,6 +32,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;    
+    animation: 2s slideInDown ease-in-out;
+    -webkit-animation: 2s slideInDown ease-in-out;
 }
 
 .nav .menu a{
@@ -62,6 +68,7 @@ body {
 .prof h1{
     color: white;
     font-size: 50px;
+    animation: 2s slideInUp ease-in-out;
 }
 
 .prof h2 {
@@ -69,15 +76,18 @@ body {
     color: darkgoldenrod;
     font-weight: 200;
     font-size: 18px;
+    animation: 2.5s slideInUp ease-in-out;
 }
 
 .profile img{
     max-width: 600px;
     margin-bottom: -80px;
+    animation: 2s slideInUp ease-in-out;
 }
 
-.button {
+.prof .button {
     display: flex;
+    animation: 3s slideInUp ease-in-out;
 }
 
 .reservBtn, .waBtn {
@@ -267,5 +277,34 @@ body {
     to{
         opacity: 1;
         scale: 1;
+    }
+}
+
+/* Welcoming Animation */
+
+
+@keyframes slideInDown {
+    0%{
+        visibility: visible;
+        -webkit-transform:translate3d(0, -100%, 0);
+        transform: translate3d(0, -100%, 0);
+}
+    100%{
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+}
+}
+
+@keyframes slideInUp {
+    0%{
+        -webkit-transform: translate3d(0, 100%, 0);
+        transform: translate3d(0, 100%, 0);
+        visibility: visible;
+        opacity:0;
+    }
+    100%{
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0);
+        opacity:1;
     }
 }

@@ -4,4 +4,4 @@ const tentang = document.getElementById('about');
 const menuu = document.getElementById('menu');
 const kontak = document.getElementById('contact');
 
-// NOTE : coba pake getId utk ubh style
+// NOTE : coba pake getId / byClassName utk ubh style
